@@ -13,7 +13,7 @@
 
 <body>
     <nav id="desktop-nav">
-        <div class="logo">Devesh Khandvikar</div>
+        <div class="logo">Akshay Aphale</div>
         <div>
             <ul class="nav-links">
                 <li><a href="#about">About</a></li>
@@ -24,7 +24,7 @@
         </div>
     </nav>
     <nav id="hamburger-nav">
-        <div class="logo">Devesh Khandvikar</div>
+        <div class="logo">Akshay Aphale</div>
         <div class="hamburger-menu">
             <div class="hamburger-icon" onclick="toggleMenu()">
                 <span></span>
@@ -41,20 +41,20 @@
     </nav>
     <section id="profile">
         <div class="section__pic-container">
-            <img src="./assets/Snapchat-579024191-01-fotor-20230917214242.jpg" alt="Devesh profile pic">
+            <img src="./assets/PIXL_20230325_215004_10.PNG" alt="Akshay profile pic">
         </div>
         <div class="section__text">
             <p class="section__text__p1">Hello, I'm</p>
-            <h1 class="title">Devesh Khandvikar</h1>
+            <h1 class="title">Akshay Aphale</h1>
             <p class="section__text__p2">Frontend Developer</p>
             <div class="btn-container">
-                <button class="btn btn-color-2" onclick="window.open('./assets/Devesh.pdf')">Download
+                <button class="btn btn-color-2" onclick="window.open('./assets/Resume_Akshay_M_Aphale.pdf')">Download
                     CV</button>
                 <button class="btn btn-color-1" onclick="location.href='./#contact'">Contact Info</button>
             </div>
             <div id="socials-container">
                 <img src="./assets/linkedin.png" alt="my linkedin profile" class="icon"
-                    onclick="location.href='https://www.linkedin.com/in/devesh-khandvikar-73102422a/'">
+                    onclick="location.href='https://www.linkedin.com/in/akshay-aphale-4b1799289'">
                 <img src="./assets/github.png" alt="my Github profile" class="icon"
                     onclick="location.href='https://Github.com'">
             </div>
@@ -65,7 +65,7 @@
         <h1 class="title">About Me</h1>
         <div class="section-container">
             <din class="section__pic-container">
-                <img src="./assets/IMG_.jpg" alt="profile pic" class="about-pic">
+                <img src="./assets/PIXL_20230325_215004_10.PNG" alt="profile pic" class="about-pic">
             </din>
             <div class="about-details-container">
                 <div class="about-containers">
@@ -77,7 +77,7 @@
                     <div class="details-container">
                         <img src="./assets/education.png" alt="education icon" class="icon">
                         <h3>Education</h3>
-                        <p>BCA Bachelors Degree<br>MCA Masters Degree</p>
+                        <p>BSc Computer Science<br>MSc Computer Science</p>
                     </div>
                 </div>
                 <div class="text-container">
@@ -109,13 +109,7 @@
                                 <p>Experienced</p>
                             </div>
                         </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>SASS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
+                        
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
@@ -123,20 +117,7 @@
                                 <p>Basic</p>
                             </div>
                         </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Bootstrap</h3>
-                                <p>Basic</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>React js</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
+                        
                     </div>
                 </div>
                 <div class="details-container">
@@ -149,20 +130,7 @@
                                 <p>Experienced</p>
                             </div>
                         </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Node JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
-                        <article>
-                            <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
-                            <div>
-                                <h3>Express JS</h3>
-                                <p>Intermediate</p>
-                            </div>
-                        </article>
+                        
                         <article>
                             <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
                             <div>
@@ -240,13 +208,13 @@
         <div class="contact-info-upper-container">
             <div class="contact-info-container">
                 <img src="./assets/email.png" alt="email-icon" class="icon contact-icon"
-                onclick="location.href='https:mailto:deveshkhandvikar143@gmail.com'">
-                <p><a href="mailto:deveshkhandvikar143@gmail.com">deveshkhandvikar143@gmail.com</a></p>
+                onclick="location.href='https:mailto:akshayaphale01@gmail.com'">
+                <p><a href="mailto:akshayaphale01@gmail.com">akshayaphale01@gmail.com</a></p>
             </div>
             <div class="contact-info-container">
                 <img src="./assets/linkedin.png" alt="linkedin-icon" class="icon contact-icon .email-icon"
-                onclick="location.href='https://www.linkedin.com/in/devesh-khandvikar-73102422a/'">
-                <p><a href="https://www.linkedin.com/in/devesh-khandvikar-73102422a/">LinkedIn</a></p>
+                onclick="location.href='https://www.linkedin.com/in/akshay-aphale-4b1799289/'">
+                <p><a href="https://www.linkedin.com/in/akshay-aphale-4b1799289/'">LinkedIn</a></p>
             </div>
         </div>
     </section>
@@ -264,6 +232,32 @@
 
     </footer>
     <script src="scrept.js"></script>
+
+    fetch('/sendEmail', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            to: 'recipient@example.com',
+            subject: 'Test Email',
+            text: 'This is a test email sent from the browser using JavaScript!'
+        })
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok');
+        }
+        return response.json();
+    })
+    .then(data => {
+        console.log(data);
+    })
+    .catch(error => {
+        console.error('There was a problem with your fetch operation:', error);
+    });
+    
+
 </body>
 
 </html>
